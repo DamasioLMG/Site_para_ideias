@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Ideia</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Adicionar Nova Ideia</h1>
+
+    <form method="post" action="/adicionar" class="formulario">
+        <label for="categoria">Categoria:</label>
+        <select name="categoria" id="categoria">
+            <option value="Agro">Agro</option>
+            <option value="Mercado">Mercado</option>
+            <option value="Cidade">Cidade</option>
+            <option value="Outras">Outras</option>
+        </select>
+
+        <label for="texto">Descrição da ideia:</label>
+        <textarea name="texto" id="texto" rows="4" placeholder="Digite sua ideia aqui..." required></textarea>
+
+        <button type="submit">Salvar Ideia</button>
+        <a class="botao-voltar" href="/">Voltar</a>
+    </form>
+
+</body>
+</html>

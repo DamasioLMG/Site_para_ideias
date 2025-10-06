@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea#ultimas_ideias {
+    height: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
